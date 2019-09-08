@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- TODO 04: Define textColorPrimary in the global theme -->
+    <!-- TODO 06: Define TextInputLayout style -->
+    <!-- TODO 08: Define Button style -->
+    <!-- TODO 09: Define Text Button style -->
+    <!-- TODO 12: Modify Toolbar title's text size -->
+    <!-- TODO 16: Set "dosis" font as the default fontFamily of the app -->
+    <!-- TODO 17: Use "convergence" font for Toolbar title, Button and TextButton. Remember using bold style -->
+    <!-- TODO 18: Define custom style for the product name label in catalog's cards. -->
+    <!-- TODO 19: Create and apply a new color theme to the application -->
+    <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorAccent</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+</resources>
