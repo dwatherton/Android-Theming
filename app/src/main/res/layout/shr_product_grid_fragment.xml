@@ -12,11 +12,12 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/app_bar"
-            style="@style/Widget.Shrine.Toolbar"
+            android:theme="@style/Theme.Shrine"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/shr_menu"
-            app:title="@string/shr_app_name" />
+            app:title="@string/shr_app_name"
+            app:titleTextAppearance="@style/TextAppearance.Shrine.ToolbarTitle" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView

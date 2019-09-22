@@ -14,6 +14,45 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/dosis</item>
+    </style>
+
+    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/textInputLayoutOutlineColor</item>
+        <item name="hintTextColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/convergence</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Shrine.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/convergence</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.ToolbarTitle" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/convergence</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.Product" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.ProductTitle" parent="TextAppearance.Shrine.Product">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.LoginTitle" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/textColorPrimary</item>
     </style>
 
     <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
